@@ -1,0 +1,46 @@
+.navbar{
+  padding: 2px;
+  display: flex;
+  justify-content: space-between !important;
+  background-color: cornsilk;
+}
+
+.heading{
+  color: darkgreen;
+}
+
+.footeralign{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-gap: 2px;
+}
+.navbar-icons i{
+  font-size: 2rem;
+  margin: 4px;
+}
+.footer-right ul li{
+  list-style: none;
+}
+.footer-center ul li{
+  list-style: none;
+}
+.footer{
+  background-color: gray;
+  color: white;
+}
+.formbg{
+  background-color: gray;
+  height: 100vh;
+}
+.getinpage{
+  background-color: white;
+  height: 32rem;
+  border-radius: 1rem;
+}
+
+@media (max-width: 733px){
+  .footeralign{
+    display: block;
+    text-align: center;
+  }
+}
